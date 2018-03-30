@@ -4,11 +4,10 @@
 # 引入 datetime 模块
 import datetime
 
-
 def getYesterday():
 	today = datetime.date.today()
-	oneday = datetime.timedelta(days=1)
-	yesterday = today - oneday
+	oneday = datetime.timedelta
+	yesterday = today - oneday(days=1)
 	return yesterday
 
 
